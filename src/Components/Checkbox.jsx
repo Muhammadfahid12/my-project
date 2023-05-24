@@ -11,18 +11,19 @@ const UNI = () => {
   
 
   return (
-    <div className="flex flex-col justify-center mt-3 mb-5">
-      <label htmlFor="checkbox" className="mr-2 mb-2">
+    <div className="flex flex-col justify-center mt-5 ">
+      <label htmlFor="checkbox" className="mr-2 mb-4 border border-red-500 rounded-2xl p-2">
         <input
           type="checkbox"
           id="checkbox"
           checked={isChecked}
           onChange={handleCheckboxChange}
+          className='ml-7 '
          
         />
-        <span className="ml-2 ">I have read the T&C</span>
+        <span className="ml-2  ">I have read the T&C</span>
       </label>
-      <button className={`py-2 px-20  rounded text-white `} style={{background:buttonColor,color:'white'}}>
+      <button className={`py-2 mb-6 px-24  rounded-2xl text-white `} style={{background:buttonColor,color:'white'}}>
         Proceed
       </button>
     </div>

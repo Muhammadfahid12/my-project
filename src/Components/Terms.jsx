@@ -3,9 +3,9 @@ import Checkbox from "./Checkbox";
 export default function Terms() {      
   return (
     <>
-      <div className="flex  ">
+      <div className="flex flex-col lg:flex-row ">
         {/* first portion */}
-        <div className="bg-orangelight flex flex-col items-center justify-evenly pb-3 ">
+        <div className="bg-orangelight flex flex-col items-center justify-between  pb-3 ">
           <div className=" h-24 w-44 my-4 mt-8">
             <img src={"/Images/Logo1.svg"} alt="Logo" />
           </div>
@@ -18,7 +18,7 @@ export default function Terms() {
             <img src={"/Images/Agreement-amico 1.png"} alt="" />
           </div>
 
-          <div>
+          <div className="mb-2">
               <div className="flex space-x-4">
                 <a href="//">License</a>
                 <span>|</span>
@@ -89,7 +89,7 @@ export default function Terms() {
               registration.
             </p>
 
-            <p className="mb-2 mt-4">
+            <p className="mb-6 mt-4">
               We reserve the right to modify or update these terms and
               conditions without prior notice. By continuing to use our website
               after any updates, you acknowledge and agree to these changes.
