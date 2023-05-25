@@ -7,8 +7,10 @@ module.exports = {
     colors: {
      orangelight:'#F0EAEA',
      welcome:'#738482',
-     ButtonColor:'#CB2229'
+     ButtonColor:'#CB2229',
+     white:'#FFFFFF'
     },
+    
   },
   plugins: [],
 }

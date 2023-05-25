@@ -3,14 +3,14 @@ import Checkbox from "./Checkbox";
 export default function Terms() {      
   return (
     <>
-      <div className="flex flex-col lg:flex-row ">
+      <div className="flex flex-col md:flex-row ">
         {/* first portion */}
-        <div className="bg-orangelight flex flex-col items-center justify-between  pb-3 ">
+        <div className="bg-orangelight flex flex-col items-center justify-around  pb-3 ">
           <div className=" h-24 w-44 my-4 mt-8">
-            <img src={"/Images/Logo1.svg"} alt="Logo" />
+            <img className="bg-orangelight " src={"/Images/Logo1.svg"} alt="Logo" />
           </div>
           <div>
-              <h1 className="text-welcome text-3xl font-bold">Welcome to INO</h1>
+              <h1 className="text-welcome text-3xl font-bold  text-center">Welcome to INO</h1>
               <p className="mr-2">Register now to gain access to your account</p>
           </div>
 
@@ -26,7 +26,7 @@ export default function Terms() {
                 <span>|</span>
                 <a href="//">Terms and Conditions</a>
               </div>
-                <p className="opacity-50">Copyright © 2023 All Rights Reserved by INO</p>
+                <span className="opacity-50">Copyright © 2023 All Rights Reserved by </span><span className="text-ButtonColor font-bold">INO</span>
           </div>
         </div>
 
