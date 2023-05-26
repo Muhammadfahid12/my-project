@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import PhoneInput from 'react-phone-number-input'
 import 'react-phone-number-input/style.css'
+import Card from './Card'
 
 
 export default function Terms() {     
@@ -41,25 +42,7 @@ export default function Terms() {
 
         {/* Second portion */}
       
-        
-        <div className="flex justify-center flex-col items-center w-screen bg-orangelight  ">
-          <div className=' bg-white w-96 h-96 flex flex-col p-11 justify-around items-center rounded-lg'>
-          <h2 className='font-bold '>Verify Your Phone Number</h2>
-          <div className="mt-11 ">
-                 <PhoneInput
-                 className='w-auto p-4 border border-black-500 rounded-lg overflow-hidden'
-            international
-            countryCallingCodeEditable={false}
-            initialValueFormat="national"
-            defaultCountry="US"
-            value={value}
-            onChange={handleInputChange}/>
-            </div>
-            <button className='bg-ButtonColor rounded-xl text-white  py-1 my-6 px-24'>Verify</button>
-          
-          </div>
-        </div>
-
+        <Card/>
           
 
 
