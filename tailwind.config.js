@@ -11,6 +11,9 @@ module.exports = {
      white:'#FFFFFF',
      ImageBg:'#F0E8E8'
     },
+    dropShadow: {
+      '3xl': '3px 3px 3px rgba(0, 0, 0, 0.25)',
+    },
     
   },
   plugins: [
